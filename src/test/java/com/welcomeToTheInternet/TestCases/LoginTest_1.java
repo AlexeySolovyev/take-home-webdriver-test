@@ -22,7 +22,9 @@ public class LoginTest_1 extends BaseClass{
         boolean isLoggedOn = driver.getPageSource().contains("You logged into a secure area!");
         if (isLoggedOn) {
             Assert.assertTrue(true);
+            logger.info("Test passed");
         } else {
+            logger.info("Test failed");
             captureScreen(driver, "Success login procedure");
             Assert.fail();
         }

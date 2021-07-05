@@ -5,10 +5,10 @@
     <test name="WebDriver Test">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.welcomeToTheInternet.TestCases.LoginTest_1"/>
-            <class name="com.welcomeToTheInternet.TestCases.LoginTest_2"/>
+            <!--<class name="com.welcomeToTheInternet.TestCases.LoginTest_1"/>
+            <class name="com.welcomeToTheInternet.TestCases.LoginTest_2"/> -->
             <class name="com.welcomeToTheInternet.TestCases.CheckboxTest_3"/>
-            <class name="com.welcomeToTheInternet.TestCases.ContextMenuTest_4"/>
+            <!-- <class name="com.welcomeToTheInternet.TestCases.ContextMenuTest_4"/>
             <class name="com.welcomeToTheInternet.TestCases.DragAndDropTest_5"/>
             <class name="com.welcomeToTheInternet.TestCases.DropdownTest_6"/>
             <class name="com.welcomeToTheInternet.TestCases.DynamicContentTest_7"/>
@@ -21,8 +21,8 @@
             <class name="com.welcomeToTheInternet.TestCases.MouseHoverTest_14"/>
             <class name="com.welcomeToTheInternet.TestCases.JsAlertTest_15"/>
             <class name="com.welcomeToTheInternet.TestCases.JsErrorTest_16"/>
-            <class name="com.welcomeToTheInternet.TestCases.MultipleWindowsTest_17"/> -->
-            <class name="com.welcomeToTheInternet.TestCases.NotificationMessageTest_18"/>
+            <class name="com.welcomeToTheInternet.TestCases.MultipleWindowsTest_17"/>
+            <class name="com.welcomeToTheInternet.TestCases.NotificationMessageTest_18"/>  -->
 
         </classes>
     </test>

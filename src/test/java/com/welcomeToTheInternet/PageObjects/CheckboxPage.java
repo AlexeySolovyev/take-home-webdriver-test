@@ -16,7 +16,7 @@ public class CheckboxPage {
 
     @FindBy(css = "a[href='/checkboxes']")
     @CacheLookup
-    WebElement linkCheboxes;
+    WebElement linkCheckboxes;
 
     @FindBy(xpath = "//*[@id='checkboxes']/input[1]")
     @CacheLookup
@@ -27,7 +27,7 @@ public class CheckboxPage {
     WebElement checkbox2;
 
     public void clickCheckboxLink() {
-        linkCheboxes.click();
+        linkCheckboxes.click();
     }
 
     public void clickCheckbox1() {
