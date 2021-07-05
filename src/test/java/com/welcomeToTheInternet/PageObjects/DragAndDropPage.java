@@ -1,5 +1,6 @@
 package com.welcomeToTheInternet.PageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -7,9 +8,10 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class DragAndDropPage {
+public class DragAndDropPage<ElementFrom, ElementTo> {
 
     WebDriver localDriver;
+
     public DragAndDropPage(WebDriver remoteDriver) {
         localDriver = remoteDriver;
         PageFactory.initElements(remoteDriver, this);
@@ -49,3 +51,4 @@ public class DragAndDropPage {
         return columnB.getText();
     }
 }
+

@@ -13,7 +13,7 @@ public class DragAndDropTest_5 extends BaseClass {
 
         dragAndDrop.clickDragAndDropLink();
         logger.info("Navigate to the Drag and Drop page");
-        dragAndDrop.dragColumnAToColumnB();
+        dragAndDrop.dragColumnBToColumnA();
         logger.info("Column A was dragged to the Column B");
         if (dragAndDrop.getTextA().equals("B")) {
             Assert.assertTrue(true);

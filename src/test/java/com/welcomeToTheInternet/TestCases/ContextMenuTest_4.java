@@ -23,10 +23,12 @@ public class ContextMenuTest_4 extends BaseClass {
 
         boolean isAlertMessage = message.contains("You selected a context menu");
         if (isAlertMessage) {
+            logger.info("Test passed");
             Assert.assertTrue(true);
         } else {
+            logger.info("Test failed");
             captureScreen(driver, "Failed get the alert message");
+            Assert.fail();
         }
-        alert.accept();
     }
 }

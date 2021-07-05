@@ -6,11 +6,11 @@
         <parameter name="browser" value="chrome"/>
         <classes>
             <!--<class name="com.welcomeToTheInternet.TestCases.LoginTest_1"/>
-            <class name="com.welcomeToTheInternet.TestCases.LoginTest_2"/> -->
+            <class name="com.welcomeToTheInternet.TestCases.LoginTest_2"/>
             <class name="com.welcomeToTheInternet.TestCases.CheckboxTest_3"/>
-            <!-- <class name="com.welcomeToTheInternet.TestCases.ContextMenuTest_4"/>
+             <class name="com.welcomeToTheInternet.TestCases.ContextMenuTest_4"/>  -->
             <class name="com.welcomeToTheInternet.TestCases.DragAndDropTest_5"/>
-            <class name="com.welcomeToTheInternet.TestCases.DropdownTest_6"/>
+            <!-- <class name="com.welcomeToTheInternet.TestCases.DropdownTest_6"/>
             <class name="com.welcomeToTheInternet.TestCases.DynamicContentTest_7"/>
             <class name="com.welcomeToTheInternet.TestCases.DynamicControlTest_8"/>
             <class name="com.welcomeToTheInternet.TestCases.DynamicLoadingTest_9"/>
